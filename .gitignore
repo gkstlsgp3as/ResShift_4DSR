@@ -29,6 +29,7 @@ log/*
 log
 landmask/*
 !assets/
+!assets/*
 !landmask/land_mask.tif
 milestone/*
 output/*
