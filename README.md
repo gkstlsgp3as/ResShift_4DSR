@@ -11,7 +11,7 @@
 
 ---
 >Diffusion-based image super-resolution (SR) methods are mainly limited by the low inference speed due to the requirements of hundreds or even thousands of sampling steps. Existing acceleration sampling techniques inevitably sacrifice performance to some extent, leading to over-blurry SR results. To address this issue, we propose a novel and efficient diffusion model for SR that significantly reduces the number of diffusion steps, thereby eliminating the need for post-acceleration during inference and its associated performance deterioration. Our method constructs a Markov chain that transfers between the high-resolution image and the low-resolution image by shifting the residual between them, substantially improving the transition efficiency. Additionally, an elaborate noise schedule is developed to flexibly control the shifting speed and the noise strength during the diffusion process. Extensive experiments demonstrate that the proposed method obtains superior or at least comparable performance to current state-of-the-art methods on both synthetic and real-world datasets, *even only with 15 sampling steps*. 
-><img src="./assets/framework.png" align="middle" width="800">
+><img src="./code/assets/framework.png" align="middle" width="800">
 
 ---
 ## Update
@@ -43,11 +43,11 @@ conda activate resshift
 
 ## Applications
 ### :point_right: Real-world image super-resolution
-[<img src="assets/0015.png" height="324px"/>](https://imgsli.com/MTkzNzgz) [<img src="assets/0030.png" height="324px"/>](https://imgsli.com/MTkzNzgx)
+[<img src="./code/assets/0015.png" height="324px"/>](https://imgsli.com/MTkzNzgz) [<img src="./code/assets/0030.png" height="324px"/>](https://imgsli.com/MTkzNzgx)
 
-[<img src="assets/frog.png" height="324px"/>](https://imgsli.com/MTkzNzg0) [<img src="assets/dog2.png" height="324px">](https://imgsli.com/MTkzNzg3)
+[<img src="./code/assets/frog.png" height="324px"/>](https://imgsli.com/MTkzNzg0) [<img src="./code/assets/dog2.png" height="324px">](https://imgsli.com/MTkzNzg3)
 
-[<img src="assets/cat.png" height="252px"/>](https://imgsli.com/MTkzNzkx) [<img src="assets/Lincon.png" height="252px"/>](https://imgsli.com/MTkzNzk5) [<img src="assets/oldphoto6.png" height="252px"/>](https://imgsli.com/MTkzNzk2) 
+[<img src="./code/assets/cat.png" height="252px"/>](https://imgsli.com/MTkzNzkx) [<img src="./code/assets/Lincon.png" height="252px"/>](https://imgsli.com/MTkzNzk5) [<img src="./code/assets/oldphoto6.png" height="252px"/>](https://imgsli.com/MTkzNzk2) 
 
 ### :point_right: Image inpainting
 <img src="testdata/inpainting/imagenet/lq_mark/ILSVRC2012_val_00001639_mark.png" height="126px"/> <img src="testdata/inpainting/imagenet/results/ILSVRC2012_val_00001639.png" height="126px"/> <img src="testdata/inpainting/imagenet/lq_mark/ILSVRC2012_val_00001810_mark.png" height="126px"/> <img src="testdata/inpainting/imagenet/results/ILSVRC2012_val_00001810.png" height="126px"/> <img src="testdata/inpainting/imagenet/lq_mark/ILSVRC2012_val_00001204_mark.png" height="126px"/> <img src="testdata/inpainting/imagenet/results/ILSVRC2012_val_00001204.png" height="126px"/> 
