@@ -40,7 +40,7 @@ or
 conda env create -f environment.yml
 conda activate resshift
 ```
-
+<!--
 ## Applications
 ### :point_right: Real-world image super-resolution
 [<img src="./code/assets/0015.png" height="324px"/>](https://imgsli.com/MTkzNzgz) [<img src="./code/assets/0030.png" height="324px"/>](https://imgsli.com/MTkzNzgx)
@@ -58,7 +58,7 @@ conda activate resshift
 ### :point_right: Blind Face Restoration
 <img src="testdata/faceir/cropped_faces/lq/0729.png" height="126px"/> <img src="testdata/faceir/cropped_faces/results/0729.png" height="126px"/> <img src="testdata/faceir/cropped_faces/lq/0444.png" height="126px"/> <img src="testdata/faceir/cropped_faces/results/0444.png" height="126px"/> <img src="testdata/faceir/cropped_faces/lq/0885.png" height="126px"/> <img src="testdata/faceir/cropped_faces/results/0885.png" height="126px"/> 
 <img src="testdata/faceir/cropped_faces/lq/0500.png" height="126px"/> <img src="testdata/faceir/cropped_faces/results/0500.png" height="126px"/> <img src="testdata/faceir/cropped_faces/lq/Solvay_conference_1927_2_16.png" height="126px"/> <img src="testdata/faceir/cropped_faces/results/Solvay_conference_1927_0018.png" height="126px"/> <img src="testdata/faceir/cropped_faces/lq/Solvay_conference_1927_2_16.png" height="126px"/> <img src="testdata/faceir/cropped_faces/results/Solvay_conference_1927_2_16.png" height="126px"/> 
-
+-->
 ## Online Demo
 You can try our method through an online demo:
 ```
