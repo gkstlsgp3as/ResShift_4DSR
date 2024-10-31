@@ -1,6 +1,6 @@
 # 4D Imaging Radar Super-Resolution via Stereo-Camera-Guided Diffusion Models (4D Imaging Radar Bootcamp, Grand Award) 
 
-[Shinhye Han](https://gkstlsgp3as.github.io/), [Hyok-been Lee], [Hwisong Kim], [Doyoung Lee], [Duk-jin Kim]
+[Shinhye Han](https://gkstlsgp3as.github.io/), Hyok-been Lee, Hwisong Kim, Doyoung Lee, Duk-jin Kim
 
 ---
 >As demand for high-performance sensors rises with autonomous systems, 4D Imaging Radar has gained attention for its cost-effective and reliable performance in adverse weather, capable of 3D object recognition and speed tracking using MIMO technology. While useful in various fields, including fall detection and surveillance, 4D Radar faces limitations due to its low spatial resolution compared to LiDAR, which provides finer 3D details. 4D Radar's reliance on longer radio wavelengths results in coarser data, often missing static object details.
