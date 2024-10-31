@@ -34,7 +34,7 @@ https://github.com/user-attachments/assets/c8e791b5-eea6-4c63-93f2-42f7bdd82100
 CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --standalone --nproc_per_node=4 --nnodes=1 main.py --cfg_path configs/inpaint_lama256_retina.yaml --save_dir ../results/
 ```
 
-#### :rocket: Inference 
+### :rocket: Inference 
 Reproduce the results for 4D Imaging Radar Super-Resolution:
 ```
 # generate masks
@@ -53,5 +53,5 @@ python -m torch.distributed.launch --nproc_per_node 1 inference_resshift_4dsr.py
 python ./utils/unnormalize.py -i ../results/inpaint -o ../results/inpaint_unnorm
 ```
 
-### Contact
+### 📞: Contact
 If you have any questions, please feel free to contact me via `sienna.shhan@gmail.com`.
