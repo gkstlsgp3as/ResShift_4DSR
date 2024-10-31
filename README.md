@@ -1,10 +1,12 @@
-# 4D Imaging Radar Super-Resolution via Stereo-Camera-Guided Diffusion Models (4D Imaging Radar Bootcamp, Grand Award) 
+# 4D Imaging Radar Super-Resolution via Stereo-Camera-Guided Diffusion Models (4D Imaging Radar Bootcamp, Grand Award) 
 
 [Shinhye Han](https://gkstlsgp3as.github.io/), [Hyok-been Lee], [Hwisong Kim], [Doyoung Lee], [Duk-jin Kim]
 
 ---
 >As demand for high-performance sensors rises with autonomous systems, 4D Imaging Radar has gained attention for its cost-effective and reliable performance in adverse weather, capable of 3D object recognition and speed tracking using MIMO technology. While useful in various fields, including fall detection and surveillance, 4D Radar faces limitations due to its low spatial resolution compared to LiDAR, which provides finer 3D details. 4D Radar's reliance on longer radio wavelengths results in coarser data, often missing static object details.
-To address these issues, two enhancement techniques—super-resolution and inpainting—are used to improve radar data quality. Super-resolution increases image resolution, and inpainting fills in missing data, enhancing radar-generated point clouds. Radar data processing methods fall into three types: voxel-based, point cloud-based, and range image-based, with the last offering computational efficiency by converting 3D data into 2D images. The research employs stereo cameras to guide data enhancement with a diffusion-based model, ResShift, achieving high-fidelity, high-resolution point clouds for more precise downstream applications.><img src="./code/assets/framework.png" align="middle" width="800">
+To address these issues, two enhancement techniques—super-resolution and inpainting—are used to improve radar data quality. Super-resolution increases image resolution, and inpainting fills in missing data, enhancing radar-generated point clouds. Radar data processing methods fall into three types: voxel-based, point cloud-based, and range image-based, with the last offering computational efficiency by converting 3D data into 2D images. The research employs stereo cameras to guide data enhancement with a diffusion-based model, ResShift, achieving high-fidelity, high-resolution point clouds for more precise downstream applications.>
+
+![1_forward_process](https://github.com/user-attachments/assets/76a3eb10-01e0-4036-ac91-6a2aadbd21be)
 
 ## Requirements
 * Python 3.10, Pytorch 2.1.2, [xformers](https://github.com/facebookresearch/xformers) 0.0.23
@@ -22,9 +24,10 @@ or
 conda env create -f environment.yml
 conda activate resshift
 ```
-<!--
-### :point_right:
+
+### :point_right: Results
 https://github.com/user-attachments/assets/c8e791b5-eea6-4c63-93f2-42f7bdd82100
+
 
 ### :airplane: Training
 ```
